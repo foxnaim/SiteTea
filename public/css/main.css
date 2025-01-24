@@ -1,0 +1,33 @@
+body{
+
+}
+
+.conteiner{
+max-width: 1200px;
+margin: 0 auto;
+padding: 5px 20px;
+}
+
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.menu> .menu__list {
+    display: flex;
+    gap: 50px;
+}
+
+
+.user-actions {
+    display: flex;
+    gap: 20px;
+}
+
+
+.menu__link{
+    
+}
