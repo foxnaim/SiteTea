@@ -44,3 +44,70 @@ transition: all 500ms;
     border-radius: 20px;
     transition: all 500ms;
 }
+
+
+/*section*/
+
+section{
+    margin: 0;
+}
+
+.conteinerMain{
+    background-image:url('../img/bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+
+.conteinerMain> h1{
+    padding: 250px 0 0 50px;
+    font-size: 60px;
+    font-family: 600;
+    color: #fff;
+    width: 900px;
+}
+
+.conteinerMain> p{
+    padding-top: 10px;
+    font-size: 24px;
+    color: #fff;
+    padding-left: 50px;
+    width: 600px;
+}
+
+
+.conteinerInfo {
+    display: flex;
+    justify-content: center; /* Горизонтальное центрирование */
+    align-items: center;    /* Вертикальное центрирование */
+    text-align: center;
+    font-size: 40px;
+    width: 700px;
+    margin: 100px auto; /* Для центрирования контейнера внутри страницы */
+    color: #151618;
+}
+
+.conteinerInfowrapp>h3{
+    display: flex;
+    justify-content: center; /* Горизонтальное центрирование */
+    align-items: center;    /* Вертикальное центрирование */
+    text-align: center;
+    font-size: 40px;
+    width: 700px;
+    margin: 100px auto; /* Для центрирования контейнера внутри страницы */
+    color: #151618;
+}
+
+.conteinerInfowrapp>.Wrapper{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.conteinerInfowrapp>.Wrapper>.block{
+    display: block;
+    align-items: center;
+    text-align: center; 
+}
