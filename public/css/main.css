@@ -111,3 +111,270 @@ section{
     align-items: center;
     text-align: center; 
 }
+
+.main-wrapper {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Секция отзывов */
+  .clients {
+    text-align: center;
+    margin: 40px 0;
+    width: 100%;
+    padding: 100px 20px;
+    background: #F7F2EA;
+    border-radius: 5px;
+  }
+  
+  .clients h2 {
+    font-size: 2em;
+    margin-bottom: 100px;
+  }
+  
+  .testimonial {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+   
+  }
+  
+  .testimonial div {
+    flex: 2;
+    min-width: 250px;
+    padding: 15px;
+
+  }
+  
+  /* Секция блога */
+  .tea-blog {
+    margin: 40px 20px;
+  }
+  
+  .tea-blog h2 {
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .blog-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  
+  .blog-card {
+    display: flex;
+    width: 470px;
+    align-items: center;
+    justify-content: center;
+  }
+
+ 
+  
+  .blog-card img {
+    width: 200px;
+    height: 150px;
+    border-radius: 20px;
+  }
+  
+  .blog-card h3 {
+    font-size: 1.2em;
+    margin: 15px;
+  }
+  
+  .blog-card p {
+    font-size: 0.9em;
+    margin: 0 15px 15px;
+    color: #555;
+  }
+  
+  .blog-card a {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    width: 100px;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 0 0 5px 5px;
+  }
+  
+  .blog-card a:hover {
+
+    background: #555;
+  }
+  
+  /* Секция подписки */
+  .subscribe {
+    background-image:url("../img/OurTeaBlog/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 50px;
+  margin-top: 150px;
+  }
+  
+  .subscribe h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+   
+  }
+  
+  .subscribe p {
+    margin-bottom: 20px;
+    color: #555;
+    width: 300px;
+  }
+  
+  .subscribe input[type="email"] {
+    padding: 10px;
+    width: 300px;
+    max-width: 100%;
+    margin-right: 10px;
+    border-bottom: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .subscribe button {
+    padding: 10px 20px;
+    background: #ffffff;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .subscribe button:hover {
+    background: #0056b3;
+  }
+
+
+
+  
+  /* Секция "We Prioritise" */
+  .priorities {
+    text-align: center;
+    margin-top: 150px;
+    padding: 40px 0;
+  }
+  
+  .priorities h2 {
+    padding: 20px 0 100px 0;
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .priority-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 0px 0 150px 0;
+  }
+  
+  .priority-item {
+    flex: 1;
+    min-width: 200px;
+    max-width: 250px;
+    text-align: center;
+  }
+  
+  .priority-item img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 15px;
+  }
+  
+  .priority-item h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  .priority-item p {
+    color: #555;
+  }
+  
+  /* Footer */
+  footer {
+    background: #f9f9f9;
+    padding: 40px 20px;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 20px 100px;
+  }
+  
+  .footer-column {
+    flex: 1;
+    min-width: 200px;
+  }
+  
+  .footer-column h4 {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+  }
+  
+  .footer-column ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-column ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-column ul li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .footer-column ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  blockquote {
+    font-style: italic;
+    color: #555;
+    border-left: 4px solid #ccc;
+    padding-left: 15px;
+  }
+  
+  blockquote footer {
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: #777;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .social-icons a img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .footer-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+    font-size: 0.9em;
+    color: #777;
+  }
+  
