@@ -60,7 +60,7 @@ const server = http.createServer((req, res) => {
   }
 
   const routes = {
-    "/": "./index.html",
+    "/Home": "./index.html",
     "/Black": "/pages/Black.html",
     "/Green": "/pages/Green.html",
     "/Oolong": "/pages/Oolong.html",
