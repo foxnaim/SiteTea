@@ -63,7 +63,6 @@ const server = http.createServer((req, res) => {
     "/Home": "./index.html",
     "/Black": "/pages/Black.html",
     "/Green": "/pages/Green.html",
-    "/Oolong": "/pages/Oolong.html",
     "/White": "/pages/White.html",
   };
 
