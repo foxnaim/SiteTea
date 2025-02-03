@@ -188,3 +188,64 @@ p {
      width: 80%;
  }
 }
+
+
+
+/* Стили блока подписки */
+.newsletter {
+ margin-top: 150px;
+ background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPrsdVgZ64g2d3fOOOp9bbuDhVLa52-ZHibw&s') no-repeat center center/cover;
+ text-align: center;
+ padding: 50px 20px;
+}
+
+.newsletter h2 {
+ font-size: 24px;
+ font-weight: bold;
+ margin-bottom: 15px;
+ color: #333;
+}
+
+.newsletter-form {
+ display: flex;
+ justify-content: center;
+ max-width: 500px;
+ margin: 0 auto;
+ background: white;
+ border-radius: 5px;
+ overflow: hidden;
+ box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.newsletter-form input {
+ flex: 1;
+ padding: 12px;
+ border: none;
+ font-size: 16px;
+ outline: none;
+}
+
+.newsletter-form button {
+ background: black;
+ color: white;
+ border: none;
+ padding: 12px 20px;
+ font-size: 16px;
+ cursor: pointer;
+ transition: 0.3s;
+}
+
+.newsletter-form button:hover {
+ background: #555;
+}
+
+/* Адаптивность */
+@media (max-width: 600px) {
+ .newsletter-form {
+     flex-direction: column;
+ }
+
+ .newsletter-form input {
+     border-bottom: 1px solid #ddd;
+ }
+}
